@@ -18,7 +18,7 @@ df.transcription = df.transcription.str.replace(r'ǝ', r'ə', regex=True)
 df.transcription = df.transcription.str.replace(r'ᵉ', r'e', regex=True)
 df.transcription = df.transcription.str.replace(r'ʷʰ', r'ʰʷ', regex=True)
 df.transcription = df.transcription.str.replace(r'ʷ|ᵘ', r'u', regex=True)
-df.transcription = df.transcription.str.replace(r'ʃ', r's', regex=True) # not phonemic
+df.transcription = df.transcription.str.replace(r'ʃ|ʂ|ɕ', r's', regex=True) # not phonemic
 # df.transcription = df.transcription.str.replace(r'ᵐb', r'ə', regex=True)
 # df.transcription = df.transcription.str.replace(r'ⁿd', r'ə', regex=True)
 # df.transcription = df.transcription.str.replace(r'ᵑg', r'ə', regex=True)

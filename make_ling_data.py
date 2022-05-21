@@ -19,9 +19,6 @@ df.transcription = df.transcription.str.replace(r'ᵉ', r'e', regex=True)
 df.transcription = df.transcription.str.replace(r'ʷʰ', r'ʰʷ', regex=True)
 df.transcription = df.transcription.str.replace(r'ʷ|ᵘ', r'u', regex=True)
 df.transcription = df.transcription.str.replace(r'ʃ|ʂ|ɕ', r's', regex=True) # not phonemic
-# df.transcription = df.transcription.str.replace(r'ᵐb', r'ə', regex=True)
-# df.transcription = df.transcription.str.replace(r'ⁿd', r'ə', regex=True)
-# df.transcription = df.transcription.str.replace(r'ᵑg', r'ə', regex=True)
 
 df["transcription"] = df["transcription"].str.replace(r"\s", ".")
 # print(df[df["transcription"].map(type) == float])
@@ -70,10 +67,10 @@ tone_dict = {
     r"322" : "LFT",
     # LFB
     r"311|211" : "LFB",
-    # LRF
-    r"313|312|314|315|323|324|325|212|213|214|215" : "LRF",
     # LFR
-    r"252|253|254|251|242|241|243|232|231|121|131|132|141|142|143|151|152|153|154" : "LFR",
+    r"313|312|314|315|323|324|325|212|213|214|215" : "LFR",
+    # LRF
+    r"252|253|254|251|242|241|243|232|231|121|131|132|141|142|143|151|152|153|154" : "LRF",
     # HT
     r"55" : "HT",
     # HB

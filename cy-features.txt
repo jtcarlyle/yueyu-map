@@ -1,0 +1,375 @@
+TOKEN 1
+           1	WEIGHT
+          37	id
+           4	type
+
+TOKEN 2
+           1	WEIGHT
+          18	id
+           2	type
+
+TOKEN 3
+           1	WEIGHT
+          55	id
+           4	type
+
+TOKEN 4
+           1	WEIGHT
+          81	id
+           1	type
+
+TOKEN 5
+           1	WEIGHT
+          23	id
+           2	type
+
+TOKEN 6
+           1	WEIGHT
+          79	id
+           1	type
+
+TOKEN 7
+           1	WEIGHT
+          38	id
+           4	type
+
+TOKEN 8
+           1	WEIGHT
+          21	id
+           2	type
+
+TOKEN 9
+           1	WEIGHT
+          78	id
+           1	type
+
+TOKEN 10
+           1	WEIGHT
+          77	id
+           1	type
+
+TOKEN 11
+           1	WEIGHT
+          80	id
+           1	type
+
+TOKEN 12
+           1	WEIGHT
+          69	id
+           4	type
+
+TOKEN 13
+           1	WEIGHT
+           6	id
+           2	type
+
+TOKEN 14
+           1	WEIGHT
+          86	id
+           4	type
+
+TOKEN 15
+           1	WEIGHT
+          16	id
+           2	type
+
+TOKEN 16
+           1	WEIGHT
+           1	id
+           2	type
+
+TOKEN 17
+           1	WEIGHT
+          31	id
+           4	type
+
+TOKEN 18
+           1	WEIGHT
+           5	id
+           2	type
+
+TOKEN 19
+           1	WEIGHT
+          15	id
+           2	type
+
+TOKEN 20
+           1	WEIGHT
+          59	id
+           4	type
+
+TOKEN 21
+           1	WEIGHT
+          24	id
+           2	type
+
+TOKEN 22
+           1	WEIGHT
+          10	id
+           2	type
+
+TOKEN 23
+           1	WEIGHT
+          53	id
+           4	type
+
+TOKEN 24
+           1	WEIGHT
+          91	id
+           4	type
+
+TOKEN 25
+           1	WEIGHT
+          48	id
+           4	type
+
+TOKEN 26
+           1	WEIGHT
+           8	id
+           2	type
+
+TOKEN 27
+           1	WEIGHT
+          14	id
+           2	type
+
+TOKEN 28
+           1	WEIGHT
+           7	id
+           2	type
+
+TOKEN 29
+           1	WEIGHT
+          20	id
+           2	type
+
+TOKEN 30
+           1	WEIGHT
+          33	id
+           4	type
+
+TOKEN 31
+           1	WEIGHT
+           9	id
+           2	type
+
+TOKEN 32
+           1	WEIGHT
+          46	id
+           4	type
+
+TOKEN 33
+           1	WEIGHT
+         101	id
+           6	type
+
+TOKEN 34
+           1	WEIGHT
+          67	id
+           4	type
+
+TOKEN 35
+           1	WEIGHT
+          29	id
+           2	type
+
+TOKEN 36
+           1	WEIGHT
+          42	id
+           4	type
+
+TOKEN 37
+           1	WEIGHT
+          44	id
+           4	type
+
+TOKEN 38
+           1	WEIGHT
+          90	id
+           4	type
+
+TOKEN 39
+           1	WEIGHT
+          51	id
+           4	type
+
+TOKEN 40
+           1	WEIGHT
+          41	id
+           4	type
+
+TOKEN 41
+           1	WEIGHT
+          63	id
+           4	type
+
+TOKEN 42
+           1	WEIGHT
+          98	id
+           4	type
+
+TOKEN 43
+           1	WEIGHT
+          34	id
+           4	type
+
+TOKEN 44
+           1	WEIGHT
+          32	id
+           4	type
+
+TOKEN 45
+           1	WEIGHT
+          35	id
+           4	type
+
+TOKEN 46
+           1	WEIGHT
+          74	id
+           6	type
+
+TOKEN 47
+           1	WEIGHT
+          58	id
+           4	type
+
+TOKEN 48
+           1	WEIGHT
+          88	id
+           4	type
+
+TOKEN 49
+           1	WEIGHT
+         100	id
+           4	type
+
+TOKEN 50
+           1	WEIGHT
+           2	id
+           2	type
+
+TOKEN 51
+           1	WEIGHT
+          96	id
+           2	type
+
+TOKEN 52
+           1	WEIGHT
+          87	id
+           4	type
+
+TOKEN 53
+           1	WEIGHT
+          50	id
+           4	type
+
+TOKEN 54
+           1	WEIGHT
+          17	id
+           2	type
+
+TOKEN 55
+           1	WEIGHT
+          73	id
+           6	type
+
+TOKEN 56
+           1	WEIGHT
+          43	id
+           4	type
+
+TOKEN 57
+           1	WEIGHT
+          72	id
+           4	type
+
+TOKEN 58
+           1	WEIGHT
+          39	id
+           4	type
+
+TOKEN 59
+           1	WEIGHT
+          28	id
+           2	type
+
+TOKEN 60
+           1	WEIGHT
+          75	id
+           6	type
+
+TOKEN 61
+           1	WEIGHT
+          99	id
+           4	type
+
+TOKEN 62
+           1	WEIGHT
+          13	id
+           2	type
+
+TOKEN 63
+           1	WEIGHT
+         102	id
+           6	type
+
+TOKEN 64
+           1	WEIGHT
+          19	id
+           2	type
+
+TOKEN 65
+           1	WEIGHT
+         103	id
+           6	type
+
+TOKEN 66
+           1	WEIGHT
+          83	id
+           4	type
+
+TOKEN 67
+           1	WEIGHT
+          84	id
+           2	type
+
+TOKEN 68
+           1	WEIGHT
+          54	id
+           4	type
+
+TOKEN 69
+           1	WEIGHT
+          25	id
+           2	type
+
+TOKEN 70
+           1	WEIGHT
+          40	id
+           4	type
+
+TOKEN 71
+           1	WEIGHT
+          65	id
+           4	type
+
+TOKEN 72
+           1	WEIGHT
+          52	id
+           4	type
+
+TOKEN 73
+           1	WEIGHT
+          82	id
+           2	type
+
+TOKEN 74
+           1	WEIGHT
+          85	id
+           4	type
+
+TOKEN 75
+           1	WEIGHT
+          30	id
+           2	type
+

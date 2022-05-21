@@ -1,0 +1,860 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="yue_pts" id="yue_pts">
+	<SimpleField name="fid" type="float"></SimpleField>
+	<SimpleField name="timestamp" type="string"></SimpleField>
+	<SimpleField name="begin" type="string"></SimpleField>
+	<SimpleField name="end" type="string"></SimpleField>
+	<SimpleField name="altitudeMode" type="string"></SimpleField>
+	<SimpleField name="tessellate" type="int"></SimpleField>
+	<SimpleField name="extrude" type="int"></SimpleField>
+	<SimpleField name="visibility" type="int"></SimpleField>
+	<SimpleField name="drawOrder" type="int"></SimpleField>
+	<SimpleField name="icon" type="string"></SimpleField>
+	<SimpleField name="layer" type="string"></SimpleField>
+	<SimpleField name="path" type="string"></SimpleField>
+</Schema>
+<Folder><name>yue_pts</name>
+  <Placemark>
+	<name>BS</name>
+	<ExtendedData><SchemaData schemaUrl="#yue_pts">
+		<SimpleData name="fid">32</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="layer">cy GX_Yue</SimpleData>
+		<SimpleData name="path">/Users/jtcarlyle/Dropbox/Lingnan Yue Conference/qgis/cy.kml|layername=GX_Yue</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>106.618283,23.902479,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>BS_p</name>
+	<ExtendedData><SchemaData schemaUrl="#yue_pts">
+		<SimpleData name="fid">21</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="layer">cy GX_Ping</SimpleData>
+		<SimpleData name="path">/Users/jtcarlyle/Dropbox/Lingnan Yue Conference/qgis/cy.kml|layername=GX_Ping</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>106.625479,23.889275,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>NM</name>
+	<ExtendedData><SchemaData schemaUrl="#yue_pts">
+		<SimpleData name="fid">38</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="layer">cy GX_Yue</SimpleData>
+		<SimpleData name="path">/Users/jtcarlyle/Dropbox/Lingnan Yue Conference/qgis/cy.kml|layername=GX_Yue</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>107.076456,22.140192,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>CZ_p</name>
+	<ExtendedData><SchemaData schemaUrl="#yue_pts">
+		<SimpleData name="fid">28</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="layer">cy GX_Ping</SimpleData>
+		<SimpleData name="path">/Users/jtcarlyle/Dropbox/Lingnan Yue Conference/qgis/cy.kml|layername=GX_Ping</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>107.365094,22.377253,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>FS_p</name>
+	<ExtendedData><SchemaData schemaUrl="#yue_pts">
+		<SimpleData name="fid">20</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="layer">cy GX_Ping</SimpleData>
+		<SimpleData name="path">/Users/jtcarlyle/Dropbox/Lingnan Yue Conference/qgis/cy.kml|layername=GX_Ping</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>107.956918,22.691568,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>NN_p</name>
+	<ExtendedData><SchemaData schemaUrl="#yue_pts">
+		<SimpleData name="fid">19</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="layer">cy GX_Ping</SimpleData>
+		<SimpleData name="path">/Users/jtcarlyle/Dropbox/Lingnan Yue Conference/qgis/cy.kml|layername=GX_Ping</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>108.247383,22.780652,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>NN</name>
+	<ExtendedData><SchemaData schemaUrl="#yue_pts">
+		<SimpleData name="fid">39</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="layer">cy GX_Yue</SimpleData>
+		<SimpleData name="path">/Users/jtcarlyle/Dropbox/Lingnan Yue Conference/qgis/cy.kml|layername=GX_Yue</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>108.366543,22.817002,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>QZ</name>
+	<ExtendedData><SchemaData schemaUrl="#yue_pts">
+		<SimpleData name="fid">36</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="layer">cy GX_Yue</SimpleData>
+		<SimpleData name="path">/Users/jtcarlyle/Dropbox/Lingnan Yue Conference/qgis/cy.kml|layername=GX_Yue</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>108.654146,21.979933,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>BY</name>
+	<ExtendedData><SchemaData schemaUrl="#yue_pts">
+		<SimpleData name="fid">2</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="layer">cy GX_Other</SimpleData>
+		<SimpleData name="path">/Users/jtcarlyle/Dropbox/Lingnan Yue Conference/qgis/cy.kml|layername=GX_Other</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>108.757544,23.214454,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>BH</name>
+	<ExtendedData><SchemaData schemaUrl="#yue_pts">
+		<SimpleData name="fid">37</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="layer">cy GX_Yue</SimpleData>
+		<SimpleData name="path">/Users/jtcarlyle/Dropbox/Lingnan Yue Conference/qgis/cy.kml|layername=GX_Yue</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>109.120161,21.481291,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>HX</name>
+	<ExtendedData><SchemaData schemaUrl="#yue_pts">
+		<SimpleData name="fid">40</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="layer">cy GX_Yue</SimpleData>
+		<SimpleData name="path">/Users/jtcarlyle/Dropbox/Lingnan Yue Conference/qgis/cy.kml|layername=GX_Yue</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>109.261384,22.679931,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>LS</name>
+	<ExtendedData><SchemaData schemaUrl="#yue_pts">
+		<SimpleData name="fid">34</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="layer">cy GX_Yue</SimpleData>
+		<SimpleData name="path">/Users/jtcarlyle/Dropbox/Lingnan Yue Conference/qgis/cy.kml|layername=GX_Yue</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>109.291006,22.416536,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>PB</name>
+	<ExtendedData><SchemaData schemaUrl="#yue_pts">
+		<SimpleData name="fid">35</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="layer">cy GX_Yue</SimpleData>
+		<SimpleData name="path">/Users/jtcarlyle/Dropbox/Lingnan Yue Conference/qgis/cy.kml|layername=GX_Yue</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>109.556953,22.271651,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>GG</name>
+	<ExtendedData><SchemaData schemaUrl="#yue_pts">
+		<SimpleData name="fid">42</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="layer">cy GX_Yue</SimpleData>
+		<SimpleData name="path">/Users/jtcarlyle/Dropbox/Lingnan Yue Conference/qgis/cy.kml|layername=GX_Yue</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>109.617079,23.081953,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>LJ</name>
+	<ExtendedData><SchemaData schemaUrl="#yue_pts">
+		<SimpleData name="fid">45</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="layer">cy GY</SimpleData>
+		<SimpleData name="path">/Users/jtcarlyle/Dropbox/Lingnan Yue Conference/qgis/cy.kml|layername=GY</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>110.286152,21.609672,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>GP</name>
+	<ExtendedData><SchemaData schemaUrl="#yue_pts">
+		<SimpleData name="fid">29</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="layer">cy GX_Yue</SimpleData>
+		<SimpleData name="path">/Users/jtcarlyle/Dropbox/Lingnan Yue Conference/qgis/cy.kml|layername=GX_Yue</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>110.079379,23.394325,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>BB</name>
+	<ExtendedData><SchemaData schemaUrl="#yue_pts">
+		<SimpleData name="fid">33</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="layer">cy GX_Yue</SimpleData>
+		<SimpleData name="path">/Users/jtcarlyle/Dropbox/Lingnan Yue Conference/qgis/cy.kml|layername=GX_Yue</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>109.975985,22.273048,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>BL</name>
+	<ExtendedData><SchemaData schemaUrl="#yue_pts">
+		<SimpleData name="fid">31</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="layer">cy GX_Yue</SimpleData>
+		<SimpleData name="path">/Users/jtcarlyle/Dropbox/Lingnan Yue Conference/qgis/cy.kml|layername=GX_Yue</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>110.345821,22.705474,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>MS</name>
+	<ExtendedData><SchemaData schemaUrl="#yue_pts">
+		<SimpleData name="fid">30</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="layer">cy GX_Yue</SimpleData>
+		<SimpleData name="path">/Users/jtcarlyle/Dropbox/Lingnan Yue Conference/qgis/cy.kml|layername=GX_Yue</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>110.522728,24.190079,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>XY</name>
+	<ExtendedData><SchemaData schemaUrl="#yue_pts">
+		<SimpleData name="fid">43</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="layer">cy GY</SimpleData>
+		<SimpleData name="path">/Users/jtcarlyle/Dropbox/Lingnan Yue Conference/qgis/cy.kml|layername=GY</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>110.941445,22.353413,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>WC</name>
+	<ExtendedData><SchemaData schemaUrl="#yue_pts">
+		<SimpleData name="fid">77</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="layer">cy Qinlian</SimpleData>
+		<SimpleData name="path">/Users/jtcarlyle/Dropbox/Lingnan Yue Conference/qgis/cy.kml|layername=Qinlian</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>110.692104,21.347075,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>HZ</name>
+	<ExtendedData><SchemaData schemaUrl="#yue_pts">
+		<SimpleData name="fid">78</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="layer">cy Qinlian</SimpleData>
+		<SimpleData name="path">/Users/jtcarlyle/Dropbox/Lingnan Yue Conference/qgis/cy.kml|layername=Qinlian</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>110.730211,21.527341,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>YJ</name>
+	<ExtendedData><SchemaData schemaUrl="#yue_pts">
+		<SimpleData name="fid">44</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="layer">cy GY</SimpleData>
+		<SimpleData name="path">/Users/jtcarlyle/Dropbox/Lingnan Yue Conference/qgis/cy.kml|layername=GY</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>111.982232,21.857958,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>MC</name>
+	<ExtendedData><SchemaData schemaUrl="#yue_pts">
+		<SimpleData name="fid">63</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="layer">cy PRD</SimpleData>
+		<SimpleData name="path">/Users/jtcarlyle/Dropbox/Lingnan Yue Conference/qgis/cy.kml|layername=PRD</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>113.543873,22.198745,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>DMZ</name>
+	<ExtendedData><SchemaData schemaUrl="#yue_pts">
+		<SimpleData name="fid">61</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="layer">cy PRD</SimpleData>
+		<SimpleData name="path">/Users/jtcarlyle/Dropbox/Lingnan Yue Conference/qgis/cy.kml|layername=PRD</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>113.195411,22.23212,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>ZH</name>
+	<ExtendedData><SchemaData schemaUrl="#yue_pts">
+		<SimpleData name="fid">68</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="layer">cy PRD</SimpleData>
+		<SimpleData name="path">/Users/jtcarlyle/Dropbox/Lingnan Yue Conference/qgis/cy.kml|layername=PRD</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>113.529041,22.238687,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>TS</name>
+	<ExtendedData><SchemaData schemaUrl="#yue_pts">
+		<SimpleData name="fid">75</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="layer">cy PRD</SimpleData>
+		<SimpleData name="path">/Users/jtcarlyle/Dropbox/Lingnan Yue Conference/qgis/cy.kml|layername=PRD</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>112.802045,22.247552,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>DC</name>
+	<ExtendedData><SchemaData schemaUrl="#yue_pts">
+		<SimpleData name="fid">79</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="layer">cy Wuyi</SimpleData>
+		<SimpleData name="path">/Users/jtcarlyle/Dropbox/Lingnan Yue Conference/qgis/cy.kml|layername=Wuyi</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>112.736415,22.273059,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>DMSH</name>
+	<ExtendedData><SchemaData schemaUrl="#yue_pts">
+		<SimpleData name="fid">62</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="layer">cy PRD</SimpleData>
+		<SimpleData name="path">/Users/jtcarlyle/Dropbox/Lingnan Yue Conference/qgis/cy.kml|layername=PRD</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>113.2059536,22.3179753,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>HK</name>
+	<ExtendedData><SchemaData schemaUrl="#yue_pts">
+		<SimpleData name="fid">54</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="layer">cy PRD</SimpleData>
+		<SimpleData name="path">/Users/jtcarlyle/Dropbox/Lingnan Yue Conference/qgis/cy.kml|layername=PRD</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.1696121,22.3192011,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>KP</name>
+	<ExtendedData><SchemaData schemaUrl="#yue_pts">
+		<SimpleData name="fid">72</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="layer">cy PRD</SimpleData>
+		<SimpleData name="path">/Users/jtcarlyle/Dropbox/Lingnan Yue Conference/qgis/cy.kml|layername=PRD</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>112.578178,22.326471,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>EP</name>
+	<ExtendedData><SchemaData schemaUrl="#yue_pts">
+		<SimpleData name="fid">71</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="layer">cy PRD</SimpleData>
+		<SimpleData name="path">/Users/jtcarlyle/Dropbox/Lingnan Yue Conference/qgis/cy.kml|layername=PRD</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>112.39291,22.374449,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>JT</name>
+	<ExtendedData><SchemaData schemaUrl="#yue_pts">
+		<SimpleData name="fid">56</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="layer">cy PRD</SimpleData>
+		<SimpleData name="path">/Users/jtcarlyle/Dropbox/Lingnan Yue Conference/qgis/cy.kml|layername=PRD</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>114.0650077,22.440058,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>XH</name>
+	<ExtendedData><SchemaData schemaUrl="#yue_pts">
+		<SimpleData name="fid">70</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="layer">cy PRD</SimpleData>
+		<SimpleData name="path">/Users/jtcarlyle/Dropbox/Lingnan Yue Conference/qgis/cy.kml|layername=PRD</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>113.034187,22.4583,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>ZS</name>
+	<ExtendedData><SchemaData schemaUrl="#yue_pts">
+		<SimpleData name="fid">67</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="layer">cy PRD</SimpleData>
+		<SimpleData name="path">/Users/jtcarlyle/Dropbox/Lingnan Yue Conference/qgis/cy.kml|layername=PRD</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>113.388358,22.536656,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>JM</name>
+	<ExtendedData><SchemaData schemaUrl="#yue_pts">
+		<SimpleData name="fid">76</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="layer">cy PRD</SimpleData>
+		<SimpleData name="path">/Users/jtcarlyle/Dropbox/Lingnan Yue Conference/qgis/cy.kml|layername=PRD</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>113.078521,22.595149,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>XX</name>
+	<ExtendedData><SchemaData schemaUrl="#yue_pts">
+		<SimpleData name="fid">97</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="layer">cy YX</SimpleData>
+		<SimpleData name="path">/Users/jtcarlyle/Dropbox/Lingnan Yue Conference/qgis/cy.kml|layername=YX</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>112.225334,22.69569,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>HS</name>
+	<ExtendedData><SchemaData schemaUrl="#yue_pts">
+		<SimpleData name="fid">73</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="layer">cy PRD</SimpleData>
+		<SimpleData name="path">/Users/jtcarlyle/Dropbox/Lingnan Yue Conference/qgis/cy.kml|layername=PRD</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>113.008606,22.712794,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>BA</name>
+	<ExtendedData><SchemaData schemaUrl="#yue_pts">
+		<SimpleData name="fid">55</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="layer">cy PRD</SimpleData>
+		<SimpleData name="path">/Users/jtcarlyle/Dropbox/Lingnan Yue Conference/qgis/cy.kml|layername=PRD</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>113.829667,22.720595,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SD</name>
+	<ExtendedData><SchemaData schemaUrl="#yue_pts">
+		<SimpleData name="fid">65</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="layer">cy PRD</SimpleData>
+		<SimpleData name="path">/Users/jtcarlyle/Dropbox/Lingnan Yue Conference/qgis/cy.kml|layername=PRD</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>113.251531,22.818082,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>YF</name>
+	<ExtendedData><SchemaData schemaUrl="#yue_pts">
+		<SimpleData name="fid">96</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="layer">cy YX</SimpleData>
+		<SimpleData name="path">/Users/jtcarlyle/Dropbox/Lingnan Yue Conference/qgis/cy.kml|layername=YX</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>112.043797,22.928222,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>NH</name>
+	<ExtendedData><SchemaData schemaUrl="#yue_pts">
+		<SimpleData name="fid">66</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="layer">cy PRD</SimpleData>
+		<SimpleData name="path">/Users/jtcarlyle/Dropbox/Lingnan Yue Conference/qgis/cy.kml|layername=PRD</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>112.883355,22.933727,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>PY</name>
+	<ExtendedData><SchemaData schemaUrl="#yue_pts">
+		<SimpleData name="fid">74</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="layer">cy PRD</SimpleData>
+		<SimpleData name="path">/Users/jtcarlyle/Dropbox/Lingnan Yue Conference/qgis/cy.kml|layername=PRD</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>113.384129,22.937244,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>GM</name>
+	<ExtendedData><SchemaData schemaUrl="#yue_pts">
+		<SimpleData name="fid">60</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="layer">cy PRD</SimpleData>
+		<SimpleData name="path">/Users/jtcarlyle/Dropbox/Lingnan Yue Conference/qgis/cy.kml|layername=PRD</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>112.68673,22.941528,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>FS</name>
+	<ExtendedData><SchemaData schemaUrl="#yue_pts">
+		<SimpleData name="fid">59</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="layer">cy PRD</SimpleData>
+		<SimpleData name="path">/Users/jtcarlyle/Dropbox/Lingnan Yue Conference/qgis/cy.kml|layername=PRD</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>113.121435,23.021478,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>DG</name>
+	<ExtendedData><SchemaData schemaUrl="#yue_pts">
+		<SimpleData name="fid">69</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="layer">cy PRD</SimpleData>
+		<SimpleData name="path">/Users/jtcarlyle/Dropbox/Lingnan Yue Conference/qgis/cy.kml|layername=PRD</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>113.749234,23.038629,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>ZQ</name>
+	<ExtendedData><SchemaData schemaUrl="#yue_pts">
+		<SimpleData name="fid">90</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="layer">cy YX</SimpleData>
+		<SimpleData name="path">/Users/jtcarlyle/Dropbox/Lingnan Yue Conference/qgis/cy.kml|layername=YX</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>112.465091,23.047191,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>LD</name>
+	<ExtendedData><SchemaData schemaUrl="#yue_pts">
+		<SimpleData name="fid">98</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="layer">cy YX</SimpleData>
+		<SimpleData name="path">/Users/jtcarlyle/Dropbox/Lingnan Yue Conference/qgis/cy.kml|layername=YX</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>111.57001,22.768595,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>YN</name>
+	<ExtendedData><SchemaData schemaUrl="#yue_pts">
+		<SimpleData name="fid">99</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="layer">cy YX</SimpleData>
+		<SimpleData name="path">/Users/jtcarlyle/Dropbox/Lingnan Yue Conference/qgis/cy.kml|layername=YX</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>111.41735,23.24993,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>GZ</name>
+	<ExtendedData><SchemaData schemaUrl="#yue_pts">
+		<SimpleData name="fid">52</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="layer">cy PRD</SimpleData>
+		<SimpleData name="path">/Users/jtcarlyle/Dropbox/Lingnan Yue Conference/qgis/cy.kml|layername=PRD</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>113.264385,23.12911,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>DQ</name>
+	<ExtendedData><SchemaData schemaUrl="#yue_pts">
+		<SimpleData name="fid">93</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="layer">cy YX</SimpleData>
+		<SimpleData name="path">/Users/jtcarlyle/Dropbox/Lingnan Yue Conference/qgis/cy.kml|layername=YX</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>111.785937,23.143722,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SS</name>
+	<ExtendedData><SchemaData schemaUrl="#yue_pts">
+		<SimpleData name="fid">64</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="layer">cy PRD</SimpleData>
+		<SimpleData name="path">/Users/jtcarlyle/Dropbox/Lingnan Yue Conference/qgis/cy.kml|layername=PRD</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>112.905672,23.187434,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>ZC</name>
+	<ExtendedData><SchemaData schemaUrl="#yue_pts">
+		<SimpleData name="fid">57</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="layer">cy PRD</SimpleData>
+		<SimpleData name="path">/Users/jtcarlyle/Dropbox/Lingnan Yue Conference/qgis/cy.kml|layername=PRD</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>113.810859,23.261141,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SH</name>
+	<ExtendedData><SchemaData schemaUrl="#yue_pts">
+		<SimpleData name="fid">91</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="layer">cy YX</SimpleData>
+		<SimpleData name="path">/Users/jtcarlyle/Dropbox/Lingnan Yue Conference/qgis/cy.kml|layername=YX</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>112.734103,23.327001,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>HXHS</name>
+	<ExtendedData><SchemaData schemaUrl="#yue_pts">
+		<SimpleData name="fid">58</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="layer">cy PRD</SimpleData>
+		<SimpleData name="path">/Users/jtcarlyle/Dropbox/Lingnan Yue Conference/qgis/cy.kml|layername=PRD</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>113.273491,23.436141,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>CH</name>
+	<ExtendedData><SchemaData schemaUrl="#yue_pts">
+		<SimpleData name="fid">53</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="layer">cy PRD</SimpleData>
+		<SimpleData name="path">/Users/jtcarlyle/Dropbox/Lingnan Yue Conference/qgis/cy.kml|layername=PRD</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>113.586605,23.548852,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>GN</name>
+	<ExtendedData><SchemaData schemaUrl="#yue_pts">
+		<SimpleData name="fid">92</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="layer">cy YX</SimpleData>
+		<SimpleData name="path">/Users/jtcarlyle/Dropbox/Lingnan Yue Conference/qgis/cy.kml|layername=YX</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>112.44069,23.634675,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>QY</name>
+	<ExtendedData><SchemaData schemaUrl="#yue_pts">
+		<SimpleData name="fid">82</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="layer">cy YB</SimpleData>
+		<SimpleData name="path">/Users/jtcarlyle/Dropbox/Lingnan Yue Conference/qgis/cy.kml|layername=YB</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>113.056042,23.681774,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>FK</name>
+	<ExtendedData><SchemaData schemaUrl="#yue_pts">
+		<SimpleData name="fid">95</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="layer">cy YX</SimpleData>
+		<SimpleData name="path">/Users/jtcarlyle/Dropbox/Lingnan Yue Conference/qgis/cy.kml|layername=YX</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>111.799859,23.744981,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>FG</name>
+	<ExtendedData><SchemaData schemaUrl="#yue_pts">
+		<SimpleData name="fid">81</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="layer">cy YB</SimpleData>
+		<SimpleData name="path">/Users/jtcarlyle/Dropbox/Lingnan Yue Conference/qgis/cy.kml|layername=YB</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>113.527889,23.859606,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>XD</name>
+	<ExtendedData><SchemaData schemaUrl="#yue_pts">
+		<SimpleData name="fid">41</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="layer">cy GX_Yue</SimpleData>
+		<SimpleData name="path">/Users/jtcarlyle/Dropbox/Lingnan Yue Conference/qgis/cy.kml|layername=GX_Yue</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>111.770319,23.889356,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>HJ</name>
+	<ExtendedData><SchemaData schemaUrl="#yue_pts">
+		<SimpleData name="fid">94</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="layer">cy YX</SimpleData>
+		<SimpleData name="path">/Users/jtcarlyle/Dropbox/Lingnan Yue Conference/qgis/cy.kml|layername=YX</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>112.167742,23.92035,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>YD</name>
+	<ExtendedData><SchemaData schemaUrl="#yue_pts">
+		<SimpleData name="fid">84</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="layer">cy YB</SimpleData>
+		<SimpleData name="path">/Users/jtcarlyle/Dropbox/Lingnan Yue Conference/qgis/cy.kml|layername=YB</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>113.133974,24.255169,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>YS</name>
+	<ExtendedData><SchemaData schemaUrl="#yue_pts">
+		<SimpleData name="fid">85</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="layer">cy YB</SimpleData>
+		<SimpleData name="path">/Users/jtcarlyle/Dropbox/Lingnan Yue Conference/qgis/cy.kml|layername=YB</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>112.626495,24.466675,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>BT</name>
+	<ExtendedData><SchemaData schemaUrl="#yue_pts">
+		<SimpleData name="fid">86</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="layer">cy YB</SimpleData>
+		<SimpleData name="path">/Users/jtcarlyle/Dropbox/Lingnan Yue Conference/qgis/cy.kml|layername=YB</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>112.065994,24.574277,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>QJ</name>
+	<ExtendedData><SchemaData schemaUrl="#yue_pts">
+		<SimpleData name="fid">83</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="layer">cy YB</SimpleData>
+		<SimpleData name="path">/Users/jtcarlyle/Dropbox/Lingnan Yue Conference/qgis/cy.kml|layername=YB</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>113.599054,24.677779,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>SG</name>
+	<ExtendedData><SchemaData schemaUrl="#yue_pts">
+		<SimpleData name="fid">80</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="layer">cy YB</SimpleData>
+		<SimpleData name="path">/Users/jtcarlyle/Dropbox/Lingnan Yue Conference/qgis/cy.kml|layername=YB</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>113.59762,24.810879,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>LX</name>
+	<ExtendedData><SchemaData schemaUrl="#yue_pts">
+		<SimpleData name="fid">87</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="layer">cy YB</SimpleData>
+		<SimpleData name="path">/Users/jtcarlyle/Dropbox/Lingnan Yue Conference/qgis/cy.kml|layername=YB</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>112.182154,24.98135,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RH</name>
+	<ExtendedData><SchemaData schemaUrl="#yue_pts">
+		<SimpleData name="fid">88</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="layer">cy YB</SimpleData>
+		<SimpleData name="path">/Users/jtcarlyle/Dropbox/Lingnan Yue Conference/qgis/cy.kml|layername=YB</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>113.749027,25.085621,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>LC</name>
+	<ExtendedData><SchemaData schemaUrl="#yue_pts">
+		<SimpleData name="fid">89</SimpleData>
+		<SimpleData name="tessellate">-1</SimpleData>
+		<SimpleData name="extrude">0</SimpleData>
+		<SimpleData name="visibility">-1</SimpleData>
+		<SimpleData name="layer">cy YB</SimpleData>
+		<SimpleData name="path">/Users/jtcarlyle/Dropbox/Lingnan Yue Conference/qgis/cy.kml|layername=YB</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>113.347545,25.130602,0</coordinates></Point>
+  </Placemark>
+</Folder>
+</Document></kml>

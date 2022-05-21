@@ -1,0 +1,489 @@
+# -*- coding: utf-8 -*-
+
+##
+## SUMMARY
+##
+## Indel (insertion or deletion) of stress symbol or punctuation: 0.5
+## Other indel: 1.0
+##
+## Substitution of tokens with the same base symbol,
+##    differing only in one or more diacritics: 0.5
+## Substitution of vowel with consonant: 2.0
+## Other substitution: 1.0
+##
+
+########
+DEFINES
+########
+
+VERSION 2             # 0|1|2 (default: 0)
+
+TOP 65535             # output maximum (default: 65535)
+
+SUBSTMAX 2.1          # maximum for a substitution; larger values are cut off (default: 1)
+
+INDEL 1.0             # indel, if not specified otherwise (default: .5 * SUBSTMAX)
+
+METHOD SUM            # SUM|SQUARE|EUCLID|(MINKOWSKI value)  (default: SUM)
+
+TOKENSTRING RAW       # RAW|ESC (default: RAW)
+
+START 0               #   at start of string (default: 0)
+
+RANGE 0.01 0.99 0.5   # everything in range 0.01:0.99 will be set to 0.5
+RANGE 1 50 1          # everything in range 1:50 will be set to 1
+RANGE 50 1000 2       # everything in range 50:1000 will be set to 2
+
+########
+FEATURES
+########
+
+# This file uses VERSION 2 (see DEFINES above)
+
+# VERSION 0
+# B|N|D label
+# B|N|D weight label
+
+# VERSION 1 and VERSION 2
+# B|N|D default_diff label
+# B|N|D default_diff weight label
+
+# B : bitmap   (integer)
+# N : numeric  (float)
+# D : discrete (integer numbers)
+
+B 1 100 type
+D 1 1 id
+D 1 0.5 tid
+
+N 1 1 asp
+N 1 1 porl
+N 1 0.02 long
+N 1 0.02 nas
+
+########
+TEMPLATES
+########
+
+T vowel
+F type = 1
+F STATE + 1
+
+T consonant
+F type = 2
+F STATE + 1
+
+T semivowel
+F type = 3
+F STATE + 1
+
+T tone
+F type = 4
+F INDEL = 0.5
+F STATE - 1
+
+T stress
+F type = 255
+F INDEL = 0.5
+F STATE - 1
+
+T punctuation
+F type = 255
+F INDEL = 0.5
+F STATE - 1
+
+T unknown
+F type = 255
+F STATE + 1
+
+T mods
+F asp = 0
+F porl = 0
+F long = 0
+F nas = 0
+
+########
+INDELS
+########
+
+# (nothing)
+
+########
+TOKENS
+########
+
+# vowels
+
+H a
+T vowel mods
+F id = 97
+
+H ã
+T vowel mods
+F id = 97
+F nas + 1
+
+H e
+T vowel mods
+F id = 101
+
+H ẽ
+T vowel mods
+F id = 101
+F nas + 1
+
+H i
+T vowel mods
+F id = 105
+
+H ĩ
+T vowel mods
+F id = 105
+F nas + 1
+
+H o
+T vowel mods
+F id = 111
+
+H õ
+T vowel mods
+F id = 111
+F nas + 1
+
+H u
+T vowel mods
+F id = 117
+
+H y
+T vowel mods
+F id = 121
+
+H ỹ
+T vowel mods
+F id = 121
+F nas + 1
+
+H ø
+T vowel mods
+F id = 248
+
+H œ
+T vowel mods
+F id = 339
+
+H ɐ
+T vowel mods
+F id = 592
+
+H ɔ
+T vowel mods
+F id = 596
+
+H ə
+T vowel mods
+F id = 601
+
+H ɛ
+T vowel mods
+F id = 603
+
+H ɤ
+T vowel mods
+F id = 612
+
+H ɪ
+T vowel mods
+F id = 618
+
+H ɵ
+T vowel mods
+F id = 629
+
+H ʊ
+T vowel mods
+F id = 650
+
+H ʌ
+T vowel mods
+F id = 652
+
+H ʏ
+T vowel mods
+F id = 655
+
+H ᴇ
+T vowel mods
+F id = 7431
+
+H ɯ
+T vowel mods
+F id = 856
+
+H ɑ
+T vowel mods
+F id = 857
+
+H ɒ
+T vowel mods
+F id = 858
+
+H ɜ
+T vowel mods
+F id = 859
+
+H æ
+T vowel mods
+F id = 860
+
+H ᴀ
+T vowel mods
+F id = 861
+
+H ũ
+T vowel mods
+F id = 117
+F nas + 1
+
+H ŭ
+T vowel mods
+F id = 117
+
+# consonants
+
+H b
+T consonant mods
+F id = 98
+
+H d
+T consonant mods
+F id = 100
+
+H f
+T consonant mods
+F id = 102
+
+H g
+T consonant mods
+F id = 103
+
+H h
+T consonant mods
+F id = 104
+
+H k
+T consonant mods
+F id = 107
+
+H l
+T consonant mods
+F id = 108
+
+H m
+T consonant mods
+F id = 109
+
+H ᵐb
+T consonant mods
+F id = 109
+F porl + 1
+
+H n
+T consonant mods
+F id = 110
+
+H ⁿd
+T consonant mods
+F id = 110
+F porl + 1
+
+H p
+T consonant mods
+F id = 112
+
+H s
+T consonant mods
+F id = 115
+
+H t
+T consonant mods
+F id = 116
+
+H v
+T consonant mods
+F id = 118
+
+H x
+T consonant mods
+F id = 120
+
+H z
+T consonant mods
+F id = 122
+
+H ŋ
+T consonant mods
+F id = 331
+
+H ᵑg
+T consonant mods
+F id = 331
+F porl + 1
+
+H ɕ
+T consonant mods
+F id = 597
+
+H ɿ
+T vowel mods
+F id = 639
+
+H ʃ
+T consonant mods
+F id = 643
+
+H ʂ
+T consonant mods
+F id = 644
+
+H ʑ
+T consonant mods
+F id = 657
+
+H ʒ
+T consonant mods
+F id = 658
+
+H ʔ
+T consonant mods
+F id = 660
+
+H θ
+T consonant mods
+F id = 952
+
+H ȵ
+T consonant mods
+F id = 565
+
+H ts
+T consonant mods
+F id = 700
+
+H tɕ
+T consonant mods
+F id = 701
+
+H tʃ
+T consonant mods
+F id = 702
+
+H dz
+T consonant mods
+F id = 703
+
+H dʑ
+T consonant mods
+F id = 704
+
+H dʒ
+T consonant mods
+F id = 705
+
+H tθ
+T consonant mods
+F id = 706
+
+H ɬ
+T consonant mods
+F id = 707
+
+H ɦ
+T consonant mods
+F id = 708
+
+H β
+T consonant mods
+F id = 709
+
+H tʂ
+T consonant mods
+F id = 710
+
+# semivowels
+
+H j
+T semivowel mods
+F id = 106
+
+H w
+T semivowel mods
+F id = 119
+
+H ʋ
+T semivowel mods
+F id = 651
+
+# stress
+
+# punctuation
+
+# tone
+
+H H
+T tone
+F tid = 185
+
+H M
+T tone
+F tid = 178
+
+H L
+T tone
+F tid = 179
+
+H E
+T tone
+F tid = 8308
+
+H R
+T tone
+F tid = 8309
+
+H F
+T tone
+F tid = 8310
+
+H T
+T tone
+F tid = 8311
+
+H B
+T tone
+F tid = 8312
+
+# unknown
+
+H [[SP]]
+T unknown mods
+F id = 32
+
+H 9
+T unknown mods
+F id = 57
+
+# modifiers
+
+: 1 M ʰ
+F asp + 1
+
+: 1 M ː
+F long + 1
+
+: 1 M ̃
+F nas + 1
+
+: 1 M ̆
+
+: 1 M ̩
+
+: 1 M ̍

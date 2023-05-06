@@ -1,0 +1,255 @@
+#+STARTUP: beamer inlineimages
+#+COLUMNS: %45ITEM %10BEAMER_ENV(Env) %10BEAMER_ACT(Act) %4BEAMER_COL(Col)
+#+TITLE:     Reclassifying Yuè Chinese
+#+SUBTITLE: A Dialectometric Approach
+#+AUTHOR:    John Carlyle
+#+EMAIL:     jtcarlyle@uw.edu
+#+DATE:      2022-05-22 Sun
+#+OPTIONS: H:2 toc:t num:t
+#+SETUPFILE: ~/org/setup/ltn_cjk_bib_setup.org
+#+LATEX_CLASS: beamer
+#+LATEX_CLASS_OPTIONS: [presentation]
+#+BEAMER_HEADER: \institute[INST]{University of Washington\\\url{jtcarlyl@uw.edu}}
+#+LATEX_HEADER: \setsansfont{Sarasa UI CL}
+#+LATEX_HEADER: \setCJKmainfont{Sarasa UI CL}
+#+LATEX_HEADER: \usepackage[authordate,backend=biber,datamodel=morenameparts-cjk,cmsdate=both,url=false]{biblatex-chicago}
+#+LATEX_HEADER_EXTRA: \usepackage{booktabs}
+#+LATEX_HEADER_EXTRA: \usepackage{tabularx}
+#+CITE_EXPORT: biblatex chicago-authordate
+#+BIBLIOGRAPHY: ~/org/bib/jurism-all.bib
+#+BIBLIOGRAPHY: ./ref.bib
+#+BEAMER_THEME: metropolis
+
+* Preliminaries
+** The Data
+- 70 Yuè dialects:
+  + [cite/t/cf:@zhanPDci]
+  + [cite/t/cf:@zhanPDzi]
+  + [cite/t/cf:@zhanYB]
+  + [cite/t/cf:@zhanYX]
+  + [cite/t/cf:@zhangaiyao]
+  + [cite/t/cf:@yue2005]
+  + [cite/t/cf:@xieGuangxi]
+  + [cite/t/cf:@liWuHua]
+  + [cite/t/cf:@yangjiang]
+- 77 word list
+- See [cite/t/cf:@carlyle2020commonyue] for details.
+** What is a Yuè Dialect?
+A simple diagnostic test [cite:@carlyle2020commonyue pp. 33-34]:
+1. A phonemic lower /yīnrù/ (陰入) tone
+2. Long, open \slash{}a\slash{} vs. short, centralized \slash{}ɐ\slash{}
+3. ``slaughter'' \slash{}tʰɔŋ¹\slash{} (劏)
+4. ``thing'' \slash{}ɲɛ⁴\slash{} (嘢)
+5. ``noon'' involves \slash{}an⁵\slash{} (晏)
+6. Feminine suffix for animals \slash{}na³\slash{} (乸)
+7. Person plural marker \slash{}ti⁶\slash{} (哋)
+8. ``child'' either \slash{}sɐj⁵ mɐn¹ tsɐj³\slash{} (細民仔) or \slash{}sɐj⁵ lɔw³ kɔ¹\slash{} (細佬哥)
+9. ``(early) morning'' involves some combination \slash{}tʃiw¹\slash{} (朝) and \slash{}tsɔw³\slash{} (早)
+   
+** What is a Yuè Dialect? (cont.)
+- 5 or more -> (probably) Yuè Chinese
+- Convenient way to narrow focus to dialects most experts agree are Yuè. Not meant to be the final say.
+- Predicts S. Pinghua dialects are Yuè, /but/ N. Pinghua dialects are not.
+  
+** The Diagnostic Test Applied to the Yuè Dialects and their Neighbors
+[[./cy_all_lex.png]]
+
+* Introduction to Dialectometry
+** Dialectometry
+*** What is it?                                               :B_block:BMCOL:
+:PROPERTIES:
+:BEAMER_env: block
+:BEAMER_col: 0.5
+:END:
+- The use of computational and quantitative techniques in dialectology
+- Measure the degree of linguistic similarity (or distance) between dialects
+- Relate these measurements to geographic distance and plot them
+*** Why use it?                                               :B_block:BMCOL:
+:PROPERTIES:
+:BEAMER_env: block
+:BEAMER_col: 0.5
+:END:
+- Visualize migration, contact, and cultural boundaries
+- Obtain a synchronic classification
+- Create high quality maps using GIS
+- Useful for education, language planning, etc.
+** The Isogloss Method
+*** Process                                                   :B_block:BMCOL:
+:PROPERTIES:
+:BEAMER_env: block
+:BEAMER_col: 0.5
+:END:
+- Select linguistic differences
+- Draw lines on map to mark boundaries of differences
+- Seek out bundles of isoglosses
+*** Limitations                                               :B_block:BMCOL:
+:PROPERTIES:
+:BEAMER_env: block
+:BEAMER_col: 0.5
+:END:
+- Possible bias in selecting differences
+- Can't directly compare non-contiguous regions
+- Laborious
+- Difficult to interpret results
+** Yuè Chinese Isoglosses
+[cite/t/cf:@yue-hashimoto1988preliminaryinvestigation p. 41]
+[[file:Screen Shot 2022-05-21 at 3.40.46 PM.png]]
+** The Advantages of Dialectometry
+- Can use data from all linguistic levels
+- Data represents modern dialects directly
+- Includes all data without biased selections
+- Uses data maximally
+- Can compare areas that are not close
+- Clear results
+** Gabmap
+[cite/t/cf:@nerbonne2011gabmapaweb]
+- Online Dialectometry Web App
+- Based on earlier RuG/L04 program
+- [[http://www.let.rug.nl/~kleiweg/L04/webapp/]]
+* Measuring Lexical Similarity
+** Categorical Data
+| Site | to rain | morning | salt | ... |
+|------+---------+---------+------+-----|
+| GZ   | 落雨    | 聽日    | 鹽   | ... |
+| TS   | 落水    | 天早    | 上味 | ... |
+*** Categorical Distance                                      :B_block:BMCOL:
+:PROPERTIES:
+:BEAMER_env: block
+:BEAMER_col: 0.5
+:END:
+[cite/t/cf:@seguy1971relationentre] \\
+For distance between two dialects:
+- same words as 0 (no distance)
+-  different words as 1
+- take average for word list
+*** Weighted Difference Value                                 :B_block:BMCOL:
+:PROPERTIES:
+:BEAMER_env: block
+:BEAMER_col: 0.5
+:END:
+[cite/t/cf:@goebl1984dialektometrischestudien]
+- /gewichteter Identitätswert/
+- weight words by the frequency they appear answer to word list item
+- emphasize less common responses
+** Limitations of Categorical Yuè Data
+- Orthography not standard across regions or surveys
+- No accepted /zi/ for some morphemes
+- Even broad transcriptions not very similar
+- Judging which words are the ``same'' not always trivial
+** String Edit (Levenshtein) Distance
+The method comes from [cite/t/cf:@levenshtein1966binarycodes]. Applied to gauge lexical similarity in [cite/t/cf:@nerbonne2003lexicaldistance].
+- Smallest set of operations to transform one string (of segments) to another
+- Insert, delete, substitute
+- Normalize by length of compared strings
+- Follow [cite/t/cf:@yangcastro2008representingtone] to handle tone
+
+GZ to BA
+| s | i | k | L | E |   |
+| s | e | ʔ | L | E |   |
+|---+---+---+---+---+---|
+|   | 1 | 1 |   |   | 2 |
+         
+** Local Incoherence
+[cite/t/cf:@nerbonnekleiweg2007dialectologicalyardstick] \\
+\(I_l = \frac{1}{n}\displaystyle \sum_{i=1}^{n} \frac{D_i^L - D_i^G}{D_i^G}\)
+- Average of the geographic distance between the most linguistically similar site for each site normalized by the distance of the actual closest site
+
+| Method      | Local Incoherence |
+|-------------+-------------------|
+| Binary      |              1.10 |
+| Weighted    |              0.95 |
+| Levenshtein |              1.34 |
+
+
+* Linguistic and Geographic Distance
+** Difference Map
+[[file:diff.png]]
+** Linguistic Difference ↔ Geographic Distance
+[[file:plot01.png]]
+** Reference Point: Guangzhou
+[[file:curmap_gz.png]]
+** Reference Point: Taishan
+[[file:curmap_ts.png]]
+** Reference Point: Guangning
+[[file:curmap_gn.png]]
+** Reference Point: Nanning (Pinghua)
+[[file:curmap_nn_p.png]]
+
+* Multidimensional Scaling
+** Multidimensional Scaling
+[cite/t/cf:@kruskal1964nonmetricmultidimensional]
+- Multidimensional Scaling = MDS
+- Technique to estimate relative positions of points in an arbitrary multidimensional space using relative distances as input
+- Useful for understanding the gradual nature of boundaries, but is a bit of sensory overload
+- Not always precise
+** In Two Dimensions
+#+ATTR_LATEX: :width 0.75\textwidth
+[[file:plot2d.png]]
+r = 0.76
+
+** In Three Dimensions
+[[file:standard.png]]
+r = 0.81
+
+* Clustering
+** Discrete Clustering
+- Given the distances between sites, cluster sites so that sites in the same cluster are more linguistically similar to each other than to those in other clusters.
+- Prone to produce very different results based on even small fluctuations in the data.
+- UPGMA :: Unweighted Pair Group Method using Arithmetic averages \\
+    cophenetic distances (distances in the clusters) match original distances most closely
+- WPGMA :: Weighted Pair Group Method using Arithmetic averages \\
+    for irregular distribution
+- Ward's Method :: Minimum Variance \\
+    Gives clusters of roughly even size
+** Weighted Average Dendrogram
+[[file:denwa8col.png]]
+** Weighted Average Map
+[[file:mapwa8col.png]]
+** Cluster Verification
+#+ATTR_LATEX: :width 0.6\textwidth
+[[file:plot_wa_8_2_3_6_7_8.png]]
+** Fuzzy Clustering
+[cite/t/cf:@nerbonne2008projectingdialect]
+- Prevent instability by repeatedly clustering while introducing noise. Clusters that occur the most often are the stablest.
+- Process:
+  - Cluster repeatedly (n=100), randomly adding noise to the distance matrix (0 ≤ r ≤ 0.2) each iteration
+  - Count how many times certain clusters form in these repeated clusterings to approximate certainty of clustering
+  - Combine analysis into composite cluster
+- Can project results to geography using cophenetic distances 
+** Probabilistic Dendrogram
+#+ATTR_LATEX: :options angle=90
+[[file:prob.png]]
+** Fuzzy Clustering Map
+[[file:ccc.png]]
+
+* Wrap-up
+# ** Summary
+# #+BEGIN_LATEX
+# \begin{table}[tbh]
+#     \centering
+#     \begin{tabular}{llp{.6\linewidth}}
+#     \toprule
+#         Region & Group & Sites \\
+#         \midrule
+#          Eastern & Fēnglián &   \textit{\textbf{YS}}, BT, \textit{\textbf{LX}}, SH, GN, \textit{\textbf{HJ}}, \textit{\textbf{FK}}\\
+#                  & Guǎngfǔ &    \textit{\textbf{GZ}}, HK, JT, MC, PY, HXHS, CH, ZC, FS, \textit{\textbf{NH}}, SD, GM, ZS, ZH, DMSH, \textit{\textbf{DG}}, BA, QY, \textit{\textbf{FG}}, YD, SG, QJ, RH, LC, ZQ, SH, DQ, \textit{\textbf{YF}}, XX, LD, YN, XY, LJ \\
+#                  & Sìyì &       JM, DMZ, \textit{\textbf{XH}}, \textit{\textbf{TS}}, \textit{\textbf{KP}}, \textit{\textbf{EP}}, HS, DC  \\ 
+#          Western & Yōngxún &    GP, CZ\_p, GG, \textit{\textbf{BL}}, BS, BB, LS, PB, \textit{\textbf{QZ}}, BH, NM, NN, \textit{\textbf{NN\_p}}, FS\_p, \textit{\textbf{BS\_p}}, \textit{\textbf{BY}}, HX\\
+#          \midrule
+#          Unclassified & Inland & XD, \textit{\textbf{MS}}\\
+#          & ``Liǎngyáng'' & \textit{\textbf{YJ}} \\
+#          & ``Wúhuà'' & \textit{\textbf{WC}}, HZ \\
+#          \bottomrule
+#     \end{tabular}
+#     \caption{The Yuè dialect sites grouped according to the new classification}
+#     \label{tab:finalclass}
+# \end{table}
+# #+END_LATEX
+** Bibliography
+:PROPERTIES:
+:BEAMER_opt: allowframebreaks,label=
+:END:
+\printbibliography[heading=none]
+# #+print_bibliography: chicago-authordate
+** Questions
+** Thank you

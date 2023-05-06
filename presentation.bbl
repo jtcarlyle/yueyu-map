@@ -1,0 +1,805 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{cms/global//global/global}
+    \entry{carlyle2020commonyue}{thesis}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=dc4f2abc97c600f5e0b3cdae537f22e7}{%
+           family={Carlyle},
+           familyi={C\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {University of Washington}%
+      }
+      \list{location}{1}{%
+        {Seattle}%
+      }
+      \strng{namehash}{dc4f2abc97c600f5e0b3cdae537f22e7}
+      \strng{fullhash}{dc4f2abc97c600f5e0b3cdae537f22e7}
+      \strng{bibnamehash}{dc4f2abc97c600f5e0b3cdae537f22e7}
+      \strng{authorbibnamehash}{dc4f2abc97c600f5e0b3cdae537f22e7}
+      \strng{authornamehash}{dc4f2abc97c600f5e0b3cdae537f22e7}
+      \strng{authorfullhash}{dc4f2abc97c600f5e0b3cdae537f22e7}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{langid}{english}
+      \field{pagetotal}{234}
+      \field{shorttitle}{Common {{Yue}}}
+      \field{title}{Common {{Yue}}: {{A Comparative Study}} of {{Yue Dialect Historical Phonology}}}
+      \field{type}{mathesis}
+      \field{year}{2020}
+      \field{dateera}{ce}
+    \endentry
+    \entry{goebl1984dialektometrischestudien}{mvbook}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6a48616d20b9c58a6a59c51e787fd8f1}{%
+           family={Goebl},
+           familyi={G\bibinitperiod},
+           given={Hans},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Tübingen}%
+      }
+      \list{publisher}{1}{%
+        {M. Niemeyer}%
+      }
+      \strng{namehash}{6a48616d20b9c58a6a59c51e787fd8f1}
+      \strng{fullhash}{6a48616d20b9c58a6a59c51e787fd8f1}
+      \strng{bibnamehash}{6a48616d20b9c58a6a59c51e787fd8f1}
+      \strng{authorbibnamehash}{6a48616d20b9c58a6a59c51e787fd8f1}
+      \strng{authornamehash}{6a48616d20b9c58a6a59c51e787fd8f1}
+      \strng{authorfullhash}{6a48616d20b9c58a6a59c51e787fd8f1}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{annotation}{OCLC: 12314123}
+      \field{isbn}{978-3-484-52191-9 978-3-484-50200-0 978-3-484-50201-7 978-3-484-50202-4}
+      \field{langid}{german}
+      \field{shorttitle}{Dialektometrische Studien}
+      \field{title}{Dialektometrische Studien: anhand italoromanischer, rätoromanischer und galloromanischer Sprachmaterialien aus AIS und ALF}
+      \field{volumes}{3}
+      \field{year}{1984}
+      \field{dateera}{ce}
+    \endentry
+    \entry{kruskal1964nonmetricmultidimensional}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=569f9ff2dff516524ca08370ba81ba29}{%
+           family={Kruskal},
+           familyi={K\bibinitperiod},
+           given={Joseph\bibnamedelima B.},
+           giveni={J\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer-Verlag}%
+      }
+      \strng{namehash}{569f9ff2dff516524ca08370ba81ba29}
+      \strng{fullhash}{569f9ff2dff516524ca08370ba81ba29}
+      \strng{bibnamehash}{569f9ff2dff516524ca08370ba81ba29}
+      \strng{authorbibnamehash}{569f9ff2dff516524ca08370ba81ba29}
+      \strng{authornamehash}{569f9ff2dff516524ca08370ba81ba29}
+      \strng{authorfullhash}{569f9ff2dff516524ca08370ba81ba29}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{journaltitle}{Psychometrika}
+      \field{number}{2}
+      \field{shorttitle}{Nonmetric Multidimensional Scaling}
+      \field{title}{Nonmetric Multidimensional Scaling: A Numerical Method}
+      \field{volume}{29}
+      \field{year}{1964}
+      \field{dateera}{ce}
+      \field{pages}{115\bibrangedash 129}
+      \range{pages}{15}
+    \endentry
+    \entry{levenshtein1966binarycodes}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=2025f9e60b2af345aec0aa76da2eac3d}{%
+           family={Levenshtein},
+           familyi={L\bibinitperiod},
+           given={Vladimir\bibnamedelima I.},
+           giveni={V\bibinitperiod\bibinitdelim I\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Soviet Union}%
+      }
+      \strng{namehash}{2025f9e60b2af345aec0aa76da2eac3d}
+      \strng{fullhash}{2025f9e60b2af345aec0aa76da2eac3d}
+      \strng{bibnamehash}{2025f9e60b2af345aec0aa76da2eac3d}
+      \strng{authorbibnamehash}{2025f9e60b2af345aec0aa76da2eac3d}
+      \strng{authornamehash}{2025f9e60b2af345aec0aa76da2eac3d}
+      \strng{authorfullhash}{2025f9e60b2af345aec0aa76da2eac3d}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Soviet Physics Doklady}
+      \field{number}{8}
+      \field{title}{Binary Codes Capable of Correcting Deletions, Insertions, and Reversals}
+      \field{volume}{10}
+      \field{year}{1966}
+      \field{dateera}{ce}
+      \field{pages}{707\bibrangedash 710}
+      \range{pages}{4}
+    \endentry
+    \entry{liWuHua}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8df88a06c7f4191b3d9093f7e549ec2d}{%
+           family={Lǐ},
+           familyi={L\bibinitperiod},
+           given={Jiàn},
+           giveni={J\bibinitperiod},
+           givenun=0,
+           cjk={李健},
+           cjki={李\bibinitperiod},
+           cjkun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Zhōngguó shèhuìkēxué chūbǎnshè}%
+      }
+      \strng{namehash}{8df88a06c7f4191b3d9093f7e549ec2d}
+      \strng{fullhash}{8df88a06c7f4191b3d9093f7e549ec2d}
+      \strng{bibnamehash}{8df88a06c7f4191b3d9093f7e549ec2d}
+      \strng{authorbibnamehash}{8df88a06c7f4191b3d9093f7e549ec2d}
+      \strng{authornamehash}{8df88a06c7f4191b3d9093f7e549ec2d}
+      \strng{authorfullhash}{8df88a06c7f4191b3d9093f7e549ec2d}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{series}{Zhānjiāng shīfàndàxué zhōngguó yǔyánxué xuékē xīn shìyě xuéshù wéncóng}
+      \field{title}{Wú Huà yuèyǔ yánjiū {吳化粵語研究}}
+      \field{year}{2014}
+      \annotation{item}{author}{default}{1}{}{0}{cjk}
+    \endentry
+    \entry{nerbonne2011gabmapaweb}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=fcead7068825f2b27ec880499b39199c}{%
+           family={Nerbonne},
+           familyi={N\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c494916c6a3bf4f5a6d1904cdc42300e}{%
+           family={Colen},
+           familyi={C\bibinitperiod},
+           given={Rinke},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7e653348327c7a866e6dee0bd77f9037}{%
+           family={Gooskens},
+           familyi={G\bibinitperiod},
+           given={Charlotte},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=25705ec8d885efc01bbd29547e6cbe1b}{%
+           family={Kleiweg},
+           familyi={K\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4d19f67ed62fdb3c40b82c85164fe590}{%
+           family={Leinonen},
+           familyi={L\bibinitperiod},
+           given={Therese},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{0f66e9ac0cdf5518763018b1610ccc30}
+      \strng{fullhash}{d96162cf7be0c6fd1c0926350aa0c8b2}
+      \strng{bibnamehash}{d96162cf7be0c6fd1c0926350aa0c8b2}
+      \strng{authorbibnamehash}{d96162cf7be0c6fd1c0926350aa0c8b2}
+      \strng{authornamehash}{0f66e9ac0cdf5518763018b1610ccc30}
+      \strng{authorfullhash}{d96162cf7be0c6fd1c0926350aa0c8b2}
+      \field{extraname}{1}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Dialectologia: revista electrònica}
+      \field{shortjournal}{Dialectol. Rev. Electrònica}
+      \field{title}{Gabmap-a Web Application for Dialectology}
+      \field{year}{2011}
+      \field{dateera}{ce}
+      \field{pages}{65\bibrangedash 89}
+      \range{pages}{25}
+      \keyw{dialectometry}
+    \endentry
+    \entry{nerbonne2003lexicaldistance}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=fcead7068825f2b27ec880499b39199c}{%
+           family={Nerbonne},
+           familyi={N\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=25705ec8d885efc01bbd29547e6cbe1b}{%
+           family={Kleiweg},
+           familyi={K\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{91c1235109f98fdb4b12f22ef10a69d5}
+      \strng{fullhash}{91c1235109f98fdb4b12f22ef10a69d5}
+      \strng{bibnamehash}{91c1235109f98fdb4b12f22ef10a69d5}
+      \strng{authorbibnamehash}{91c1235109f98fdb4b12f22ef10a69d5}
+      \strng{authornamehash}{91c1235109f98fdb4b12f22ef10a69d5}
+      \strng{authorfullhash}{91c1235109f98fdb4b12f22ef10a69d5}
+      \field{extraname}{1}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Computers and the Humanities}
+      \field{number}{3}
+      \field{shortjournal}{Comput. Humanit.}
+      \field{title}{Lexical Distance in {{LAMSAS}}}
+      \field{volume}{37}
+      \field{year}{2003}
+      \field{dateera}{ce}
+      \field{pages}{339\bibrangedash 357}
+      \range{pages}{19}
+      \keyw{dialectometry}
+    \endentry
+    \entry{nerbonnekleiweg2007dialectologicalyardstick}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=fcead7068825f2b27ec880499b39199c}{%
+           family={Nerbonne},
+           familyi={N\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=25705ec8d885efc01bbd29547e6cbe1b}{%
+           family={Kleiweg},
+           familyi={K\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{91c1235109f98fdb4b12f22ef10a69d5}
+      \strng{fullhash}{91c1235109f98fdb4b12f22ef10a69d5}
+      \strng{bibnamehash}{91c1235109f98fdb4b12f22ef10a69d5}
+      \strng{authorbibnamehash}{91c1235109f98fdb4b12f22ef10a69d5}
+      \strng{authornamehash}{91c1235109f98fdb4b12f22ef10a69d5}
+      \strng{authorfullhash}{91c1235109f98fdb4b12f22ef10a69d5}
+      \field{extraname}{2}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Dialectometry measures the differences between dialects in ways which may involve many independently varying parameters which must be specified in combination in order to arrive at measures of difference. The existence of many parameters of measurement and possible interaction introduces the problem of how to choose parameter values and combinations of them intelligently. This paper proceeds from the assumption that dialectology proper must reveal geographic coherence in language variation in order to propose a yardstick with which to compare measurements made using various parameter settings, and it presents some results of its application.}
+      \field{issn}{0929-6174, 1744-5035}
+      \field{journaltitle}{Journal of Quantitative Linguistics}
+      \field{langid}{english}
+      \field{month}{8}
+      \field{number}{2-3}
+      \field{shortjournal}{J. Quant. Linguist.}
+      \field{title}{Toward a Dialectological Yardstick}
+      \field{urlday}{21}
+      \field{urlmonth}{5}
+      \field{urlyear}{2022}
+      \field{volume}{14}
+      \field{year}{2007}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{148\bibrangedash 166}
+      \range{pages}{19}
+      \verb{doi}
+      \verb 10.1080/09296170701379260
+      \endverb
+      \verb{urlraw}
+      \verb http://www.tandfonline.com/doi/abs/10.1080/09296170701379260
+      \endverb
+      \verb{url}
+      \verb http://www.tandfonline.com/doi/abs/10.1080/09296170701379260
+      \endverb
+    \endentry
+    \entry{nerbonne2008projectingdialect}{incollection}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=fcead7068825f2b27ec880499b39199c}{%
+           family={Nerbonne},
+           familyi={N\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=25705ec8d885efc01bbd29547e6cbe1b}{%
+           family={Kleiweg},
+           familyi={K\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9e428d3c57b952ebca20465bd5bba72a}{%
+           family={Heeringa},
+           familyi={H\bibinitperiod},
+           given={Wilbert},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=663f4108936bfaa68f3e947382d16df1}{%
+           family={Manni},
+           familyi={M\bibinitperiod},
+           given={Franz},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{0f66e9ac0cdf5518763018b1610ccc30}
+      \strng{fullhash}{016a1adf20c81521f7dc86f81aea26ad}
+      \strng{bibnamehash}{016a1adf20c81521f7dc86f81aea26ad}
+      \strng{authorbibnamehash}{016a1adf20c81521f7dc86f81aea26ad}
+      \strng{authornamehash}{0f66e9ac0cdf5518763018b1610ccc30}
+      \strng{authorfullhash}{016a1adf20c81521f7dc86f81aea26ad}
+      \field{extraname}{2}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{booktitle}{Data Analysis, Machine Learning and Applications}
+      \field{shorttitle}{Projecting Dialect Distances to Geography}
+      \field{title}{Projecting Dialect Distances to Geography: {{Bootstrap}} Clustering vs. Noisy Clustering}
+      \field{year}{2008}
+      \field{dateera}{ce}
+      \field{pages}{647\bibrangedash 654}
+      \range{pages}{8}
+      \keyw{dialectometry}
+    \endentry
+    \entry{seguy1971relationentre}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9161efdf1fca3c697c514e30b37191d4}{%
+           family={Séguy},
+           familyi={S\bibinitperiod},
+           given={Jean},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {G. Straka, Palais de l'université}%
+      }
+      \strng{namehash}{9161efdf1fca3c697c514e30b37191d4}
+      \strng{fullhash}{9161efdf1fca3c697c514e30b37191d4}
+      \strng{bibnamehash}{9161efdf1fca3c697c514e30b37191d4}
+      \strng{authorbibnamehash}{9161efdf1fca3c697c514e30b37191d4}
+      \strng{authornamehash}{9161efdf1fca3c697c514e30b37191d4}
+      \strng{authorfullhash}{9161efdf1fca3c697c514e30b37191d4}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Revue de Linguistique Romane}
+      \field{shortjournal}{Rev. Linguist. Romane}
+      \field{title}{La Relation Entre La Distance Spatiale et La Distance Lexicale}
+      \field{volume}{35}
+      \field{year}{1971}
+      \field{dateera}{ce}
+      \field{pages}{335\bibrangedash 357}
+      \range{pages}{23}
+    \endentry
+    \entry{yangjiang}{thesis}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6a503e43c1a052b1bb0876b26893f3f7}{%
+           family={Xiǎn},
+           familyi={X\bibinitperiod},
+           given={Wéntíng},
+           giveni={W\bibinitperiod},
+           givenun=0,
+           cjk={冼文婷},
+           cjki={冼\bibinitperiod},
+           cjkun=0}}%
+      }
+      \list{institution}{1}{%
+        {Guǎngxī dàxué}%
+      }
+      \strng{namehash}{6a503e43c1a052b1bb0876b26893f3f7}
+      \strng{fullhash}{6a503e43c1a052b1bb0876b26893f3f7}
+      \strng{bibnamehash}{6a503e43c1a052b1bb0876b26893f3f7}
+      \strng{authorbibnamehash}{6a503e43c1a052b1bb0876b26893f3f7}
+      \strng{authornamehash}{6a503e43c1a052b1bb0876b26893f3f7}
+      \strng{authorfullhash}{6a503e43c1a052b1bb0876b26893f3f7}
+      \field{sortinit}{X}
+      \field{sortinithash}{1965c258adceecf23ce3d67b05113442}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Guǎngdōng yángjiānghuà yánjiū {廣東陽江話研究}}
+      \field{type}{mathesis}
+      \field{year}{2016}
+      \annotation{item}{author}{default}{1}{}{0}{cjk}
+    \endentry
+    \entry{xieGuangxi}{mvbook}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=de99c03da21ac6f2b02639d4dde0045e}{%
+           family={Xiè},
+           familyi={X\bibinitperiod},
+           given={Jiànyóu},
+           giveni={J\bibinitperiod},
+           givenun=0,
+           cjk={謝建猷},
+           cjki={謝\bibinitperiod},
+           cjkun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Guǎngxī rénmín chūbǎnshè}%
+      }
+      \strng{namehash}{de99c03da21ac6f2b02639d4dde0045e}
+      \strng{fullhash}{de99c03da21ac6f2b02639d4dde0045e}
+      \strng{bibnamehash}{de99c03da21ac6f2b02639d4dde0045e}
+      \strng{authorbibnamehash}{de99c03da21ac6f2b02639d4dde0045e}
+      \strng{authornamehash}{de99c03da21ac6f2b02639d4dde0045e}
+      \strng{authorfullhash}{de99c03da21ac6f2b02639d4dde0045e}
+      \field{sortinit}{X}
+      \field{sortinithash}{1965c258adceecf23ce3d67b05113442}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Guǎngxī Hànyǔ fāngyán yánjiū {廣西漢語方言研究}}
+      \field{volumes}{2}
+      \field{year}{2007}
+      \annotation{item}{author}{default}{1}{}{0}{cjk}
+    \endentry
+    \entry{yangcastro2008representingtone}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=d86155b82bcf2239b6e41ff4739274b0}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Cathryn},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e4f097775274a0430cde9e8427924a70}{%
+           family={Castro},
+           familyi={C\bibinitperiod},
+           given={Andy},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Edinburgh University Press 22 George Square, Edinburgh EH8 9LF UK}%
+      }
+      \strng{namehash}{d2d8576bf235876d5ac110b2a6cdfccc}
+      \strng{fullhash}{d2d8576bf235876d5ac110b2a6cdfccc}
+      \strng{bibnamehash}{d2d8576bf235876d5ac110b2a6cdfccc}
+      \strng{authorbibnamehash}{d2d8576bf235876d5ac110b2a6cdfccc}
+      \strng{authornamehash}{d2d8576bf235876d5ac110b2a6cdfccc}
+      \strng{authorfullhash}{d2d8576bf235876d5ac110b2a6cdfccc}
+      \field{sortinit}{Y}
+      \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Humanities and Arts Computing}
+      \field{number}{1-2}
+      \field{shortjournal}{Int. J. Humanit. Arts Comput.}
+      \field{title}{Representing Tone in {{Levenshtein}} Distance}
+      \field{volume}{2}
+      \field{year}{2008}
+      \field{dateera}{ce}
+      \field{pages}{205\bibrangedash 219}
+      \range{pages}{15}
+      \keyw{dialectometry}
+    \endentry
+    \entry{yue-hashimoto1988preliminaryinvestigation}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f910d3816929b354eb8c1bcf56279d4f}{%
+           family={Yue-Hashimoto},
+           familyi={Y\bibinithyphendelim H\bibinitperiod},
+           given={Anne},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Tōkyō}%
+      }
+      \strng{namehash}{f910d3816929b354eb8c1bcf56279d4f}
+      \strng{fullhash}{f910d3816929b354eb8c1bcf56279d4f}
+      \strng{bibnamehash}{f910d3816929b354eb8c1bcf56279d4f}
+      \strng{authorbibnamehash}{f910d3816929b354eb8c1bcf56279d4f}
+      \strng{authornamehash}{f910d3816929b354eb8c1bcf56279d4f}
+      \strng{authorfullhash}{f910d3816929b354eb8c1bcf56279d4f}
+      \field{extraname}{1}
+      \field{sortinit}{Y}
+      \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Ajia-Afurikago no keisū kenkyū}
+      \field{title}{A {{Preliminary Investigation}} into the {{Subclassification Problem}} of the {{Yue Dialects}}}
+      \field{volume}{30}
+      \field{year}{1988}
+      \field{dateera}{ce}
+      \field{pages}{7\bibrangedash 42}
+      \range{pages}{36}
+    \endentry
+    \entry{yue2005}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f910d3816929b354eb8c1bcf56279d4f}{%
+           family={Yue-Hashimoto},
+           familyi={Y\bibinithyphendelim H\bibinitperiod},
+           given={Anne},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Language Information Sciences Research Centre, City University of Hong Kong}%
+      }
+      \strng{namehash}{f910d3816929b354eb8c1bcf56279d4f}
+      \strng{fullhash}{f910d3816929b354eb8c1bcf56279d4f}
+      \strng{bibnamehash}{f910d3816929b354eb8c1bcf56279d4f}
+      \strng{authorbibnamehash}{f910d3816929b354eb8c1bcf56279d4f}
+      \strng{authornamehash}{f910d3816929b354eb8c1bcf56279d4f}
+      \strng{authorfullhash}{f910d3816929b354eb8c1bcf56279d4f}
+      \field{extraname}{2}
+      \field{sortinit}{Y}
+      \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Dancun Dialect of Taishan}
+      \field{year}{2005}
+    \endentry
+    \entry{zhangaiyao}{book}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7115ef6f25d9e84c5af2079646ab3c56}{%
+           family={Zhān},
+           familyi={Z\bibinitperiod},
+           given={Bóhuì},
+           giveni={B\bibinitperiod},
+           givenun=0,
+           cjk={詹伯慧},
+           cjki={詹\bibinitperiod},
+           cjkun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Jìnán dàxué chūbǎnshè}%
+      }
+      \strng{namehash}{4549da5829bd9ef95e8d90bc05246c30}
+      \strng{fullhash}{4549da5829bd9ef95e8d90bc05246c30}
+      \strng{bibnamehash}{4549da5829bd9ef95e8d90bc05246c30}
+      \strng{authorbibnamehash}{4549da5829bd9ef95e8d90bc05246c30}
+      \strng{authornamehash}{4549da5829bd9ef95e8d90bc05246c30}
+      \strng{authorfullhash}{4549da5829bd9ef95e8d90bc05246c30}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Guǎngdōng Yuè fāngyán gàiyào {廣東粵方言概要}}
+      \field{year}{2000}
+      \annotation{item}{author}{default}{1}{}{0}{cjk}
+    \endentry
+    \entry{zhanPDci}{book}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=7115ef6f25d9e84c5af2079646ab3c56}{%
+           family={Zhān},
+           familyi={Z\bibinitperiod},
+           given={Bóhuì},
+           giveni={B\bibinitperiod},
+           givenun=0,
+           cjk={詹伯慧},
+           cjki={詹\bibinitperiod},
+           cjkun=0}}%
+        {{un=0,uniquepart=base,hash=7eff6e552c091a5429439df44cb5d01c}{%
+           family={Cheung},
+           familyi={C\bibinitperiod},
+           given={Yat-shing},
+           giveni={Y\bibinithyphendelim s\bibinitperiod},
+           givenun=0,
+           cjk={張日昇},
+           cjki={張\bibinitperiod},
+           cjkun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Guǎngdōng Rénmīn Chūbǎnshè}%
+      }
+      \strng{namehash}{af080007685e11bf7021faabb1dc96e9}
+      \strng{fullhash}{af080007685e11bf7021faabb1dc96e9}
+      \strng{bibnamehash}{af080007685e11bf7021faabb1dc96e9}
+      \strng{authorbibnamehash}{af080007685e11bf7021faabb1dc96e9}
+      \strng{authornamehash}{af080007685e11bf7021faabb1dc96e9}
+      \strng{authorfullhash}{af080007685e11bf7021faabb1dc96e9}
+      \field{extraname}{1}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Zhūjiāng sānjiǎozhōu fāngyán cīhuì duìzhào {珠江三角洲方言詞彙對照}}
+      \field{year}{1987}
+      \annotation{item}{author}{default}{1}{}{0}{cjk}
+    \endentry
+    \entry{zhanPDzi}{book}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=7115ef6f25d9e84c5af2079646ab3c56}{%
+           family={Zhān},
+           familyi={Z\bibinitperiod},
+           given={Bóhuì},
+           giveni={B\bibinitperiod},
+           givenun=0,
+           cjk={詹伯慧},
+           cjki={詹\bibinitperiod},
+           cjkun=0}}%
+        {{un=0,uniquepart=base,hash=7eff6e552c091a5429439df44cb5d01c}{%
+           family={Cheung},
+           familyi={C\bibinitperiod},
+           given={Yat-shing},
+           giveni={Y\bibinithyphendelim s\bibinitperiod},
+           givenun=0,
+           cjk={張日昇},
+           cjki={張\bibinitperiod},
+           cjkun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Guǎngdōng Rénmīn Chūbǎnshè}%
+      }
+      \strng{namehash}{af080007685e11bf7021faabb1dc96e9}
+      \strng{fullhash}{af080007685e11bf7021faabb1dc96e9}
+      \strng{bibnamehash}{af080007685e11bf7021faabb1dc96e9}
+      \strng{authorbibnamehash}{af080007685e11bf7021faabb1dc96e9}
+      \strng{authornamehash}{af080007685e11bf7021faabb1dc96e9}
+      \strng{authorfullhash}{af080007685e11bf7021faabb1dc96e9}
+      \field{extraname}{2}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Zhūjiāng sānjiǎozhōu fāngyán zìyīn duìzhào {珠江三角洲方言字音對照}}
+      \field{year}{1987}
+      \annotation{item}{author}{default}{1}{}{0}{cjk}
+    \endentry
+    \entry{zhanYB}{book}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=7115ef6f25d9e84c5af2079646ab3c56}{%
+           family={Zhān},
+           familyi={Z\bibinitperiod},
+           given={Bóhuì},
+           giveni={B\bibinitperiod},
+           givenun=0,
+           cjk={詹伯慧},
+           cjki={詹\bibinitperiod},
+           cjkun=0}}%
+        {{un=0,uniquepart=base,hash=7eff6e552c091a5429439df44cb5d01c}{%
+           family={Cheung},
+           familyi={C\bibinitperiod},
+           given={Yat-shing},
+           giveni={Y\bibinithyphendelim s\bibinitperiod},
+           givenun=0,
+           cjk={張日昇},
+           cjki={張\bibinitperiod},
+           cjkun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Jìnán Dàxué Chūbǎnshè}%
+      }
+      \strng{namehash}{af080007685e11bf7021faabb1dc96e9}
+      \strng{fullhash}{af080007685e11bf7021faabb1dc96e9}
+      \strng{bibnamehash}{af080007685e11bf7021faabb1dc96e9}
+      \strng{authorbibnamehash}{af080007685e11bf7021faabb1dc96e9}
+      \strng{authornamehash}{af080007685e11bf7021faabb1dc96e9}
+      \strng{authorfullhash}{af080007685e11bf7021faabb1dc96e9}
+      \field{extraname}{3}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Yuèběi shí xiànshì Yuè fāngyán diàochá bàogào {粵北十縣市粵方言調查報告}}
+      \field{year}{1994}
+      \annotation{item}{author}{default}{1}{}{0}{cjk}
+    \endentry
+    \entry{zhanYX}{book}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=7115ef6f25d9e84c5af2079646ab3c56}{%
+           family={Zhān},
+           familyi={Z\bibinitperiod},
+           given={Bóhuì},
+           giveni={B\bibinitperiod},
+           givenun=0,
+           cjk={詹伯慧},
+           cjki={詹\bibinitperiod},
+           cjkun=0}}%
+        {{un=0,uniquepart=base,hash=7eff6e552c091a5429439df44cb5d01c}{%
+           family={Cheung},
+           familyi={C\bibinitperiod},
+           given={Yat-shing},
+           giveni={Y\bibinithyphendelim s\bibinitperiod},
+           givenun=0,
+           cjk={張日昇},
+           cjki={張\bibinitperiod},
+           cjkun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Jìnán Dàxué Chūbǎnshè}%
+      }
+      \strng{namehash}{af080007685e11bf7021faabb1dc96e9}
+      \strng{fullhash}{af080007685e11bf7021faabb1dc96e9}
+      \strng{bibnamehash}{af080007685e11bf7021faabb1dc96e9}
+      \strng{authorbibnamehash}{af080007685e11bf7021faabb1dc96e9}
+      \strng{authornamehash}{af080007685e11bf7021faabb1dc96e9}
+      \strng{authorfullhash}{af080007685e11bf7021faabb1dc96e9}
+      \field{extraname}{4}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Yuèxī shí xiànshì Yuè fāngyán diàochá bàogào {粵西十縣市粵方言調查報告}}
+      \field{year}{1998}
+      \annotation{item}{author}{default}{1}{}{0}{cjk}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

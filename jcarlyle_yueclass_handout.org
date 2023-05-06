@@ -1,0 +1,55 @@
+#+title: Reevaluating the Classification of the Yuè Dialects: A Dialectometric Approach
+#+author: John Carlyle
+#+STARTUP: inlineimages
+#+OPTIONS: toc:nil title:nil num:nil tex:t
+#+SETUPFILE: ~/org/setup/ltn_cjk_bib_setup.org
+#+LATEX_CLASS: article
+#+LATEX_CLASS_OPTIONS: [a4paper,12pt]
+#+LATEX_HEADER: \setmainfont{Noto Serif}
+#+LATEX_HEADER: \setCJKmainfont{Noto Serif CJK TC}
+#+LATEX_HEADER: \usepackage{fancyhdr} %For headers and footers
+#+LATEX_HEADER: \pagestyle{fancy} %For headers and footers
+#+LATEX_HEADER: \fancyhead[L]{Reevaluating the Classification of the Yuè Dialects} % \author not set yet
+#+LATEX_HEADER: \fancyhead[C]{}
+#+LATEX_HEADER: \fancyhead[R]{John Carlyle} % \rightmark is section, \leftmark is chapter
+#+LATEX_HEADER: \usepackage[authordate,backend=biber,datamodel=morenameparts-cjk,cmsdate=both,url=false]{biblatex-chicago}
+#+LATEX_HEADER: \usepackage{rotating}
+#+LATEX_HEADER_EXTRA: \usepackage{booktabs}
+#+LATEX_HEADER_EXTRA: \usepackage{tabularx}
+#+cite_export: biblatex chicago-authordate
+#+bibliography: ~/org/bib/jurism-all.bib
+
+* Preliminaries
+
+** What is a Yuè Dialect?
+
+A simple diagnostic [cite:@carlyle2020commonyue pp. 33-34]:
+
+1. Presence of a phonemic lower /yīnrù/ (陰入) tone
+2. A distinction between long, open \slash{}a\slash{} and short, central \slash{}ɐ\slash{}
+3. The word for "slaughter" takes the general form of \slash{}tʰɔŋ¹\slash{} (劏)
+4. The word for "thing" takes the general form of \slash{}ɲɛ⁴\slash{} (嘢)
+5. The word for "noon" involves the general form \slash{}an⁵\slash{} (晏)
+6. Presence of a feminine suffix for animals that takes the general form of \slash{}na³\slash{} (乸)
+7. Presence of a 2nd person plural marker that takes the general form \slash{}ti⁶\slash{} (哋)
+8. The word for "child" either takes the general form of \slash{}sɐj⁵ mɐn¹ tsɐj³\slash{} (細民仔) or \slash{}sɐj⁵ lɔw³ kɔ¹\slash{} (細佬哥)
+9. The word for "(early) morning" involves some combination of the general forms /tʃiw¹/ (朝) and /tsɔw³/ (早)
+
+#+CAPTION: The Diagnostic Applied to the Yuè Dialects and their Neighbors
+#+NAME:   fig:diagnostic
+[[./cy_all_lex.png]]
+
+Remarks:
+- 5 or more -> (probably) Yuè Chinese
+- Convenient way to narrow focus to dialects most experts agree are Yuè. Not meant to be the final say.
+- Predicts S. Pinghua dialects are Yuè, /but/ N. Pinghua dialects are not.
+
+** What is Dialectometry?
+
+- Dialectometry :: The use of computational and quantitative techniques in dialectology.
+
+  
+
+\newpage
+#+print_bibliography: chicago-authordate
+ 

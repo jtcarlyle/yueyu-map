@@ -78,13 +78,13 @@ F type = 3
 F STATE + 1
 
 T sup                           # use as tone/stress/supersegmentals
-F type = 255
+F type = 4
 F INDEL = 0.5
-F STATE - 1
+F STATE + 1
 
 T punctuation
 F type = 255
-F INDEL = 0.5
+F INDEL = 0
 F STATE - 1
 
 T unknown
@@ -192,30 +192,6 @@ T vowel mods
 F id = 650
 
 # consonants
-
-H B
-T consonant mods
-F id = 66
-
-H F
-T consonant mods
-F id = 70
-
-H H
-T consonant mods
-F id = 72
-
-H L
-T consonant mods
-F id = 76
-
-H R
-T consonant mods
-F id = 82
-
-H T
-T consonant mods
-F id = 84
 
 H b
 T consonant mods
@@ -327,7 +303,35 @@ H w
 T semivowel mods
 F id = 119
 
-# stress
+# sup
+
+H B
+T sup mods
+F id = 66
+
+H F
+T sup mods
+F id = 70
+
+H H
+T sup mods
+F id = 72
+
+H L
+T sup mods
+F id = 76
+
+H R
+T sup mods
+F id = 82
+
+H T
+T sup mods
+F id = 84
+
+H T
+T sup mods
+F id = 85
 
 # punctuation
 
